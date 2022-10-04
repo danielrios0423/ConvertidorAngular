@@ -28,7 +28,7 @@
     </div>
   </div>
   <h5 class="text-center mt-3" *ngIf="cantidad > 0">
-    <span class="badge badge-primary">{{cantidad}} {{tengo}}</span>
+    <span class="badge badge-primary">{{cantidad | number:'0.0-2'}} {{tengo}}</span>
     <span class="badge badge-secondary">SON</span>
     <span class="badge badge-primary">{{total | number:'0.0-2'}} {{quiero}}</span>
 

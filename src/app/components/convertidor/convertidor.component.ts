@@ -9,7 +9,7 @@ export class ConvertidorComponent implements OnInit {
   cantidad:number;
   tengo = 'USD';
   quiero = 'EUR';
-  total = 0;
+  total :number;
 
   monedas: string[] = ['USD', 'EUR', 'COP']
   convertir(){
